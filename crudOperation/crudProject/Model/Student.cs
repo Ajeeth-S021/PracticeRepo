@@ -1,0 +1,17 @@
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace crudProject.Model
+{
+    public class Student
+    {
+
+            [Key]
+
+            public int Id { get; set; }
+            public string Name { get; set; }
+            public string Address { get; set; }
+            public int PhoneNo { get; set; }
+        
+
+    }
+}
